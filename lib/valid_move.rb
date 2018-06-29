@@ -3,7 +3,6 @@
 def valid_move?(board,index)
   if position_taken?(board,index) && (index >= 0) && (index <= board.length - 1)
       return TRUE
-    end
   end
 end
 
